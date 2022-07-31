@@ -17,6 +17,10 @@ public class Movement : MonoBehaviour
     void Update()
     {
         Move();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            transform.localScale = transform.localScale * 2;
+        }
     }
 
     private void Move()

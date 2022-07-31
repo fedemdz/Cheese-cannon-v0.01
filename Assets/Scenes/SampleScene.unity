@@ -169,6 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Wave: {fileID: 8600795702981725233, guid: e462d434acd16634999787435aa2c858, type: 3}
   canShoot: 1
+  cooldown: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,8 +340,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0010762188, y: 0.9709706, z: -0.23915675, w: 0.0043697883}
-  m_LocalPosition: {x: 0.579623, y: 9.720998, z: 10.005507}
+  m_LocalRotation: {x: 0.039469283, y: 0.94885004, z: -0.28418285, w: 0.13177964}
+  m_LocalPosition: {x: -5.310518, y: 24.41323, z: 24.953934}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
